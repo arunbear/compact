@@ -6,11 +6,10 @@ require "compact/version"
 Gem::Specification.new do |spec|
   spec.name          = "compact"
   spec.version       = Compact::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Arun Prasaad"]
   spec.email         = ["arunbear@cpan.org"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
+  spec.summary       = %q{A library that aids in Design by Contract.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -32,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.16"
   spec.add_development_dependency "rake", "~> 10.0"
   spec.add_development_dependency "minitest", "~> 5.0"
+  spec.add_dependency 'duplicate'
 end
